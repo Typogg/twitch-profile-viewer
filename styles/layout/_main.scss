@@ -1,0 +1,16 @@
+.main__wrapper {
+    @include flex-container(center, center);
+
+    width: 100vw;
+    height: 100vh;
+    background-color: $primary-color;
+}
+
+.main__heading {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.main__search-wrapper {
+    margin-top: 32px;
+}

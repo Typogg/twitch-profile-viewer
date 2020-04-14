@@ -337,4 +337,65 @@ template {
   display: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.subline {
+  font-style: italic;
+  color: #eaeaea;
+  margin: 8px 0;
+}
+
+body {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+button {
+  color: #eaeaea;
+  background-color: #a970ff;
+  border: 0 none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+input {
+  color: #ffffff;
+  background-color: #212121;
+  border: 0 none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  caret-color: #eaeaea;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #9147ff;
+}
+
+.main__heading {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.main__search-wrapper {
+  margin-top: 32px;
+}
+
 /*# sourceMappingURL=all.css.map */
