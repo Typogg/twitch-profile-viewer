@@ -6,7 +6,13 @@
 .main-footer__wrapper {
   @include flex-container(center, center);
 
-  height: 100px;
+  min-height: 100px;
+}
+
+@media (max-width: 455px) {
+  .main-footer__wrapper {
+    flex-direction: column;
+  }
 }
 
 .main-footer .char-divider {
@@ -22,9 +28,27 @@
     // this is already defined in '_icon.scss' but the above selector has a higher priority
     color: $primary-color;
   }
+}
 
-  &:first-of-type {
-    margin-left: 0;
-    padding-left: 0;
+@media (min-width: 455px) {
+  .main-footer .icon {
+    &:first-of-type {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 455px) {
+  .main-footer .char-divider {
+    $up-and-down-margin: 20px;
+
+    margin-top: $up-and-down-margin;
+    margin-bottom: $up-and-down-margin;
+  }
+
+  .main-footer .icon:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 16px;
   }
 }
