@@ -352,6 +352,11 @@ h6 {
   font-style: italic;
 }
 
+::selection {
+  color: #9147ff;
+  background-color: #eaeaea;
+}
+
 body {
   color: #ffffff;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
