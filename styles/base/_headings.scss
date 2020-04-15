@@ -4,11 +4,11 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;  
+  margin-top: 0;
 }
 
 .subline {
-  font-style: italic;
-  color: $light-text-color;
   margin: 8px 0;
+  color: $light-text-color;
+  font-style: italic;
 }

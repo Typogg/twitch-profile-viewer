@@ -1,8 +1,10 @@
 input {
-    color: $lighter-text-color;
-    background-color: #212121;
-    border: 0 none;
-    padding: 8px 12px;
-    border-radius: 3px;
-    caret-color: $light-text-color;
+  caret-color: $light-text-color;
+  margin-right:    8px;
+  padding: 8px 12px;
+  border: 0 none;
+  border-radius: 3px;
+  background-color: #212121;
+  color: $lighter-text-color;
+  font-size: 16px;
 }
