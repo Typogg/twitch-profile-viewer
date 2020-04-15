@@ -2,6 +2,7 @@
 styles/all.css.map
 .prettierignore
 .github
-package*.json
+package.json
+package-lock.json
 styles/all.css
 styles/vendors

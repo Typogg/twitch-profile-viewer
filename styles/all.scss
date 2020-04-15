@@ -1,18 +1,18 @@
 // importing files from vendor folder
-@import "./vendors/normalize";
+@import './vendors/normalize';
 
 // importing files from abstracts folder
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
+@import './abstracts/variables';
+@import './abstracts/mixins';
 
 // importing files from base folder
-@import "./base/headings";
-@import "./base/base";
+@import './base/headings';
+@import './base/base';
 
 // importing files from components folder
-@import "./components/button";
-@import "./components/input";
+@import './components/button';
+@import './components/input';
 
 // importing files from layout folder
-@import "./layout/container";
-@import "./layout/main";
+@import './layout/container';
+@import './layout/main';
