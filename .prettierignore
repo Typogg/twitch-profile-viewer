@@ -6,3 +6,4 @@ package.json
 package-lock.json
 styles/all.css
 styles/vendors
+.gitignore
