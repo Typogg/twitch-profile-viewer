@@ -382,7 +382,7 @@ input {
   border: 0 none;
   border-radius: 3px;
   background-color: #212121;
-  color: #ffffff;
+  color: #eaeaea;
   font-size: 16px;
 }
 
@@ -494,6 +494,17 @@ input {
 .main__search-wrapper {
   margin-top: 32px;
   font-size: 0;
+}
+
+.main__search-wrapper input {
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.main__search-wrapper button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /*# sourceMappingURL=all.css.map */
