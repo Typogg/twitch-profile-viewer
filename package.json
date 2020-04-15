@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "prettier": "prettier --write \"./**\"",
-    "csscomb": "csscomb ./styles/**"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/Typogg/twitch-profile-viewer#readme",
   "devDependencies": {
-    "csscomb": "^4.3.0",
     "prettier": "2.0.4"
   }
 }
