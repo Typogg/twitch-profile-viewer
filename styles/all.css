@@ -497,8 +497,13 @@ input {
 }
 
 .main__search-wrapper {
+  display: inline-block;
   margin-top: 32px;
   font-size: 0;
+  transition: 250ms box-shadow ease-in-out;
+}
+.main__search-wrapper.has--box-shadow {
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.3);
 }
 
 .main__search-wrapper input {

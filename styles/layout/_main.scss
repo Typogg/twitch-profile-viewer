@@ -42,8 +42,15 @@
 }
 
 .main__search-wrapper {
+  display: inline-block;
   margin-top: 32px;
   font-size: 0;
+  transition: $default-transition-duration box-shadow
+    $default-transition-timing-function;
+
+  &.has--box-shadow {
+    box-shadow: 0 0 10px rgba($dark, 0.3);
+  }
 }
 
 .main__search-wrapper input {
