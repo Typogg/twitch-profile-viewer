@@ -5,6 +5,13 @@ $lighter-primary-color: #a970ff;
 $white: #ffffff;
 $light-grey: #eaeaea;
 
+$light-dark-color: #3f3f3f;
+$dark: #212121;
+
 // typographic values
 $lighter-text-color: $white;
 $light-text-color: $light-grey;
+
+// transition values
+$default-transition-duration: 250ms;
+$default-transition-timing-function: ease-in-out;
