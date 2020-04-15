@@ -1,0 +1,11 @@
+.icon {
+  color: $lighter-primary-color;
+  padding: 5px;
+  margin: 5px;
+  transition: $default-transition-duration color
+    $default-transition-timing-function;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
