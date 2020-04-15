@@ -1,4 +1,8 @@
 .container {
+  $side-padding: 20px;
+
   margin: 0 auto;
   max-width: 1300px;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
 }
