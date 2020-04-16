@@ -371,6 +371,9 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+button:focus {
+  outline: none;
+}
 
 .char-divider {
   display: inline-block;
@@ -389,6 +392,9 @@ input {
   background-color: #212121;
   color: #eaeaea;
   font-size: 16px;
+}
+input:focus {
+  outline: none;
 }
 
 .icon {
